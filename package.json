@@ -1,0 +1,66 @@
+{
+  "name": "vscode-extension-pack",
+  "displayName": "My Visual Studio Code Extension Pack",
+  "description": "My personal extension pack with my favorite extensions",
+  "version": "0.0.0",
+  "publisher": "glevine",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/glevine/vscode-extension-pack.git"
+  },
+  "engines": {
+    "vscode": "^1.60.0"
+  },
+  "categories": [
+    "Extension Packs"
+  ],
+  "scripts": {
+    "package": "vsce package"
+  },
+  "devDependencies": {
+    "@vscode/vsce": "^3.9.2"
+  },
+  "extensionPack": [
+    "anthropic.claude-code",
+    "atlassian.atlascode",
+    "bazelbuild.vscode-bazel",
+    "christian-kohler.path-intellisense",
+    "davidanson.vscode-markdownlint",
+    "dbaeumer.vscode-eslint",
+    "docker.docker",
+    "drblury.protobuf-vsc",
+    "eamodio.gitlens",
+    "esbenp.prettier-vscode",
+    "foxundermoon.shell-format",
+    "github.copilot-chat",
+    "github.vscode-pull-request-github",
+    "golang.go",
+    "google.geminicodeassist",
+    "hashicorp.terraform",
+    "humao.rest-client",
+    "mermaidchart.vscode-mermaid-chart",
+    "mhutchie.git-graph",
+    "ms-kubernetes-tools.vscode-kubernetes-tools",
+    "ms-python.debugpy",
+    "ms-python.flake8",
+    "ms-python.isort",
+    "ms-python.pylint",
+    "ms-python.python",
+    "ms-python.vscode-pylance",
+    "ms-toolsai.jupyter",
+    "ms-vscode-remote.remote-containers",
+    "ms-vscode.makefile-tools",
+    "peacockjs.peacock",
+    "redhat.vscode-commons",
+    "redhat.vscode-yaml",
+    "samuelcolvin.jinjahtml",
+    "sfdc.bazel-vscode-java",
+    "shengchen.vscode-checkstyle",
+    "snyk-security.snyk-vulnerability-scanner",
+    "streetsidesoftware.code-spell-checker",
+    "valeryanm.vscode-phpsab",
+    "vscjava.vscode-java-pack",
+    "wmanth.jar-viewer",
+    "xdebug.php-debug"
+  ]
+}
