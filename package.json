@@ -22,13 +22,11 @@
   },
   "extensionPack": [
     "anthropic.claude-code",
-    "atlassian.atlascode",
     "bazelbuild.vscode-bazel",
     "christian-kohler.path-intellisense",
     "davidanson.vscode-markdownlint",
     "dbaeumer.vscode-eslint",
     "docker.docker",
-    "dokimos-dev.palantir-java-formatter",
     "drblury.protobuf-vsc",
     "eamodio.gitlens",
     "esbenp.prettier-vscode",
@@ -39,6 +37,7 @@
     "google.geminicodeassist",
     "hashicorp.terraform",
     "humao.rest-client",
+    "josevseb.google-java-format-for-vs-code",
     "junstyle.php-cs-fixer",
     "mermaidchart.vscode-mermaid-chart",
     "mhutchie.git-graph",
@@ -52,10 +51,10 @@
     "ms-toolsai.jupyter",
     "ms-vscode-remote.remote-containers",
     "ms-vscode.makefile-tools",
-    "oracle.oracle-java",
     "redhat.vscode-yaml",
     "samuelcolvin.jinjahtml",
     "streetsidesoftware.code-spell-checker",
+    "vscjava.vscode-java-pack",
     "wmanth.jar-viewer",
     "xdebug.php-debug"
   ]
